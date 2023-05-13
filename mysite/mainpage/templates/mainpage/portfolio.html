@@ -1,0 +1,70 @@
+{% extends 'mainpage/base.html'%}
+{% block title %}
+Портфолио
+{% endblock %}
+
+
+{% block css_home %}
+class="nav-link"
+{% endblock %}
+
+{% block css_port %}
+class="nav-link active"
+{% endblock %}
+
+
+{% block css_cont %}
+class="nav-link"
+{% endblock %}
+
+{% block content%}
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Читать</title><rect width="100%" height="100%" fill="#000000"></rect><text x="25%" y="50%" fill="#eceeef" dy=".3em">Здесь должно было быть фото</text></svg>
+            <div class="card-body">
+              <p class="card-text">Статья: "Меры поддержки МСП в период трансформации экономики"</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Читать</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Читать</title><rect width="100%" height="100%" fill="#000000"></rect><text x="40%" y="50%" fill="#eceeef" dy=".3em">Здесь тоже</text></svg>
+            <div class="card-body">
+              <p class="card-text">Статья: "Сущность смарт-контрактов как финансовой технологии будущего"</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Читать </button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Читать</title><rect width="100%" height="100%" fill="#000000"></rect><text x="23%" y="50%" fill="#eceeef" dy=".3em">А здесь могла быть ваша реклама :)</text></svg>
+            <div class="card-body">
+              <p class="card-text">Сертификат участника международной недели инвесторов</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Смотреть</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="container-fluid py-5">
+  <p>Тут могло быть самое красивое портфолио, которое вы только видели, но мне было лень его делать :)</p>
+</div>
+{% endblock %}
